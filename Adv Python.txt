@@ -1,0 +1,61 @@
+Methods Type:
+
+
+Init vs Method
+
+__init__ vs normal name
+
+ -- -- 
+ Types of Variable:
+ 1.instance Variable
+ 2.Class variable
+ 3.local variable
+ 
+  
+ Types of Methods:
+ 
+ 1.instance Methods
+ 2.Class method
+ 3.Static Method
+ 
+ 
+ Instance Variable:
+ value of instance variable varies object to object
+ 
+separate copy will be created for every object
+
+1.instance method
+2.constructor
+3.outside class
+
+
+class Variable:
+
+only copy will be created and it will shared among the all objects
+
+
+local variable:
+
+inside method :
+class Even_odd_check:
+    message = "Result "
+    def __init__(self,num):
+        self.number = num
+
+    def check(self):
+        if self.number%2==0:
+            print(Even_odd_check.message)
+            print("Even number")
+        else:
+            print(Even_odd_check.message)
+            print("odd number")
+
+obj= Even_odd_check(11)
+obj.check()
+
+
+Types of Methods:
+ 
+ 1.instance Methods  -- 99 
+ 2.Class method --  class variable operation 
+ 3.Static Method -  general utility method
